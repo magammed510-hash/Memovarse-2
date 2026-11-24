@@ -1,0 +1,76 @@
+{
+ "sections": [
+  {
+   "id": "era1",
+   "title": "Era 1",
+   "type": "era",
+   "parent": ""
+  },
+  {
+   "id": "book1",
+   "title": "Book 1",
+   "type": "book",
+   "parent": "era1"
+  },
+  {
+   "id": "miniarcs",
+   "title": "Mini-Arcs",
+   "type": "miniarcs",
+   "parent": "era1"
+  },
+  {
+   "id": "mini1",
+   "title": "Mini-Arc 1",
+   "type": "miniarc",
+   "parent": "miniarcs"
+  },
+  {
+   "id": "mini2",
+   "title": "Mini-Arc 2",
+   "type": "miniarc",
+   "parent": "miniarcs"
+  }
+ ],
+ "episodes": [
+  {
+   "id": "ep1",
+   "n": 1,
+   "name": "Наникадзе",
+   "status": "Давом дорад",
+   "tags": [
+    "боевик",
+    "фэнтези",
+    "драма"
+   ],
+   "cover": "images/ep1/cover.jpg",
+   "imgs": [
+    "images/ep1/1.jpg",
+    "images/ep1/2.jpg",
+    "images/ep1/3.jpg"
+   ],
+   "desc": "Писарбачае, ки маҳаллааш ӯро масхара мекард, баъди як ҳодисаи тираву оташ ба ҷангал меравад. Солҳо тамрин мекунад ва ба шаҳр бармегардад, то модарашро аз зиндон наҷот диҳад.",
+   "sec": "book1"
+  },
+  {
+   "id": "ep2",
+   "n": 2,
+   "name": "Illumi and Murasaci",
+   "status": "Давом дорад",
+   "tags": [
+    "боевик",
+    "фэнтези",
+    "приключение"
+   ],
+   "cover": "images/ep2/cover.jpg",
+   "imgs": [
+    "images/ep2/1.jpg",
+    "images/ep2/2.jpg",
+    "images/ep2/3.jpg",
+    "images/ep2/4.jpg",
+    "images/ep2/5.jpg"
+   ],
+   "desc": "Иллуми, писари сардори қабилаи шамширзанон, баъди марги падараш бо хоҳараш Мурасаки ба кӯҳҳо мебарояд. Дар назди устод Киба ӯ ҷангиданро меомӯзад ва ба кӯҳи демон меравад.",
+   "sec": "book1"
+  }
+ ]
+}

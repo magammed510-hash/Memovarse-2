@@ -1,0 +1,12 @@
+MEMOVERSE — чӣ тавр кор кардан
+
+1) ZIP-ро кушоед (Extract) — папкаи "Memoverse" пайдо мешавад.
+2) Ду роҳи оғоз:
+   A) VS Code → папкаро кушоед → Live Server (Go Live) → index.html.
+      Админ дар ин ҳолат танҳо дар ҳамин браузер нигоҳ дошта мешавад.
+   B) Барои админи воқеӣ (ҳама мебинанд): дар папка терминал кушоед ва иҷро кунед:
+         node server.js        (ё: npm start)
+      баъд http://localhost:3000 кушоед. Node.js лозим аст: nodejs.org
+3) Админ: «⚙ Админ» → ном ва рамз. Баъд дар ҳар саҳифа корти «＋» пайдо мешавад:
+   саҳифаи асосӣ → Add Era | дар Era → Add Book | дар Mini-Arcs → Add Mini-Arc | дар Book/Mini-Arc → Add Episode
+4) Рамзро тағйир додан: ADMIN_USER=... ADMIN_PASS=... node server.js
